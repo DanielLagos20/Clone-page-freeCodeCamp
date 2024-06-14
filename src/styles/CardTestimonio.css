@@ -1,0 +1,47 @@
+.card {
+  display: flex;
+  justify-content: center;
+  height: auto;
+  max-width: 1200px;
+  color: #a5a5ae;
+}
+.card-img {
+  width: auto;
+  height: 100%;
+}
+
+.testimonio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+  padding-top: 15px;
+  background-color: #0a0a23;
+}
+.testimonio h2 {
+  font-size: 26px;
+  margin-bottom: 0;
+}
+.testimonio h3 {
+  font-size: 23px;
+  margin-top: 10px;
+}
+.testimonio p {
+  font-size: 20px;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+@media only screen and (max-width: 1290px) {
+  .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .testimonio {
+    width: 350px;
+  }
+}

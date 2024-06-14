@@ -1,0 +1,29 @@
+.container-banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  height: auto;
+  background-color: #3b3b4f;
+  color: #d0d0d5;
+  margin-top: 4rem;
+}
+.container-banner h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+}
+
+.container-empresas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0;
+}
+.container-empresas img {
+  width: 130px;
+}

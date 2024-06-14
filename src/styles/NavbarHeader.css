@@ -1,0 +1,113 @@
+.container-navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0a0a23;
+  margin: 0px;
+  padding: 0.3rem;
+  position: sticky;
+  top: 0;
+}
+
+.search-form {
+  position: relative;
+}
+.container-input input {
+  width: 500px;
+  padding: 6px;
+  background-color: #3b3b4e;
+  border: none;
+  margin-left: 15px;
+  padding-left: 30px;
+  font-size: 18px;
+  color: #d0d0d5;
+}
+.container-input input::placeholder {
+  color: #d0d0d5;
+  font-size: 18px;
+}
+
+.search-icon {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background-image: url("../svg/Logosearch.svg");
+  cursor: pointer;
+}
+
+.container-logo img {
+  width: 200px;
+  margin-top: 5px;
+}
+.container-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 15px;
+}
+
+/* Link imagen */
+.container-links a:nth-of-type(1) {
+  border: 1px solid #fff;
+}
+
+.container-links a img:nth-of-type(1) {
+  margin: 1px 7px;
+}
+
+/* Link menu */
+.container-links a:nth-of-type(2) {
+  font-size: 1.15rem;
+  font-weight: lighter;
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 4px 15px;
+  color: #ffffff;
+}
+
+.container-links a:nth-of-type(1):hover {
+  background-color: #fff;
+  color: #0a0a23;
+}
+
+.container-links a:nth-of-type(2):hover {
+  background-color: #fff;
+  color: #0a0a23;
+}
+
+/*Link boton */
+.container-links a:nth-of-type(3) {
+  font-weight: lighter;
+  font-size: 1.15rem;
+  text-decoration: none;
+  padding: 4px 15px;
+  background-color: #feac32;
+  border: 2px solid#feac32;
+  color: #0a0a23;
+  cursor: pointer;
+}
+
+.container-links a:nth-of-type(3):hover {
+  background-color: #febe4b;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container-input input,
+  .search-icon {
+    display: none;
+  }
+  .container-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container-links {
+    margin-left: 100px;
+  }
+}

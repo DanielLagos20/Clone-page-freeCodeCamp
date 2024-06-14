@@ -1,0 +1,13 @@
+.button-comenzar {
+  min-width: 400px;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 10px;
+  background-color: #feac32;
+  border: 2px solid#feac32;
+  cursor: pointer;
+}
+
+.button-comenzar:hover {
+  background-color: #febe4b;
+}
